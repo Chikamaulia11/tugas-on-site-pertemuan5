@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Libertinus Serif", serif;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    background: linear-gradient(rgb(74, 112, 227), violet,purple);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#itemForm {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px;
+    margin-bottom: 20px;
+}
+
+#itemInput {
+    width: 100%;
+    padding: 10px;
+    border: solid;
+    border-color: gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+#itemInput:focus {
+    outline: none;
+    border: 2px solid rgb(54, 54, 233);
+}
+
+button[type="submit"] {
+    background-color: rgb(12, 90, 185);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+button[type="submit"]:hover {
+    background-color: rgb(111, 217, 238);
+}
+#errorMessage {
+    color: red;
+    font-size: small;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#daftar {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#daftar li {
+  background-color: #f1f5f9;
+  color: #444;
+  padding: 10px 40px 10px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.invalid {
+    border-color: red !important;
+}
+
+.valid {
+    border-color: rgb(12, 194, 12) !important;
+}
+
+
